@@ -7,12 +7,12 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from packages.cariai_core.llm import gen_proposal
+from packages.jobless_core.llm import gen_proposal
 
-st.set_page_config(page_title="CariAI – Proposal Copilot", page_icon="📝", layout="wide")
+st.set_page_config(page_title="Jobless – Proposal Copilot", page_icon="💼", layout="wide")
 
-st.title("CariAI – Proposal & Job-Match Copilot (MVP)")
-st.caption("Streamlit MVP. Backend logic in `packages/cariai_core/` so you can migrate to FastAPI later.")
+st.title("Jobless – Proposal & Job-Match Copilot (MVP)")
+st.caption("Streamlit MVP. Backend logic in `packages/jobless_core/` so you can migrate to FastAPI later.")
 
 with st.sidebar:
     st.subheader("Konfigurasi")

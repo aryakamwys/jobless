@@ -1,16 +1,16 @@
-# CariAI – Streamlit MVP + Python Core + FastAPI Skeleton
+# Jobless – Streamlit MVP + Python Core + FastAPI Skeleton
 
 This starter lets you **ship quickly with Streamlit**, while preparing for a **React (Next.js + shadcn/ui) frontend** later via a proper Python API (FastAPI).
 
 ## Structure
 ```
-cariai-starter/
+jobless-starter/
 ├─ apps/
 │  ├─ streamlit_app.py          # MVP UI (deploy-first)
 │  └─ api/
 │     └─ main.py                # FastAPI skeleton for future React/shadcn
 ├─ packages/
-│  └─ cariai_core/
+│  └─ jobless_core/
 │     ├─ __init__.py
 │     ├─ llm.py                 # Gemini wrapper
 │     └─ rag.py                 # tiny RAG helpers (baseline)
@@ -56,7 +56,7 @@ set -x GEMINI_API_KEY "YOUR-KEY"
 
 ## 3) Prepare for React + shadcn (Next.js) later
 
-- Keep your business logic in `packages/cariai_core/`.
+- Keep your business logic in `packages/jobless_core/`.
 - Expose HTTP endpoints in `apps/api/main.py` (FastAPI).
 - Deploy FastAPI to Railway/Render/Fly; deploy Next.js (shadcn/ui) to Vercel.
 - Configure CORS and use a server-only API key. Never ship keys in the browser.
