@@ -2,7 +2,8 @@
 
 > **AI-driven proposal generation tool that helps freelancers and agencies create professional project proposals instantly using Google Gemini AI.**
 
-![Jobless Screenshot](./screenshot.png)
+![Uploading image.png…]()
+
 
 ## 🚀 Quick Start
 
@@ -54,7 +55,7 @@ cd apps/web && npm run dev
 
 ---
 
-## ⚡ Cara Kerja Saat Ini
+## ⚡ Cara Kerja
 
 1. **User memasukkan brief proyek** dari klien
 2. **Opsional:** Menambahkan ringkasan portofolio
@@ -189,11 +190,6 @@ X-API-Key: your-gemini-api-key
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgments
 
@@ -207,8 +203,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 **Made by Arya**
-
-- GitHub: [@your-username](https://github.com/your-username)
 - Email: aryakaml24@gmail.com
 
 ---
